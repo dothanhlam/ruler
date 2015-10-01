@@ -23,7 +23,7 @@ body {
 	background: #444;
 }
 .hRule {
-	position: fixed;
+	position: absolute; /*this fix is to ensure the hrule should be attached to desiered DIV element*/
 	width: 100%;
 	height: 18px;
 	left: 0px;
